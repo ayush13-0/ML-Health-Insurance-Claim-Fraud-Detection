@@ -1,15 +1,33 @@
-# 💳 Health Insurance Claim Fraud Detection
-A machine learning–powered web application designed to detect fraudulent health insurance claim transactions.
-This project integrates multiple ML models with a clean Streamlit interface, enabling real-time fraud prediction and model comparison.
+<p align="center">
+  <img src="https://img.shields.io/badge/Health%20Insurance%20Fraud%20Detection-ML%20Web%20Application-blueviolet?style=for-the-badge&logo=python&logoColor=white" />
+</p>
 
-🎯 Objectives :- 
+<h1 align="center">💳🛡️ Health Insurance Claim Fraud Detection</h1>
+
+<p align="center">
+  <b>A machine learning–powered web application for real-time health insurance fraud prediction with model comparison</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/ML-Scikit--Learn-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Boosting-XGBoost-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualization-Matplotlib-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualization-Seaborn-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Streamlit-Web%20App-brightgreen?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-purple?style=for-the-badge" />
+</p>
+
+---
+
+# 🎯 Objectives :- 
 - Predict fraudulent health insurance transactions using machine learning
 - Build a user-friendly web interface for real-time predictions
 - Compare model performance (Random Forest, Logistic Regression, XGBoost)
 - Display model accuracy and prediction results clearly
 - Analyze and preprocess transactional datasets for fraud detection
 
-📂 Project Overview
+# 📘 Project Overview
 This project focuses on detecting fraudulent activities in health insurance claim transactions using supervised machine learning.
 The system allows users to:
 - Input transaction details
@@ -22,7 +40,17 @@ Key questions addressed include:
 - How well do different ML models perform?
 - What features strongly influence fraud decisions?
 
-🧰 Tech Stack & Libraries
+<h2> 📁 Project Structure
+<pre>
+├── fraud_detection_app.py
+├── fraud_model_training.ipynb
+├── healthinsurance_fraud.csv
+├── requirements.txt
+└── README.md
+</pre>
+
+
+# 🧰 Tech Stack & Libraries
 - Python
 - Pandas
 - NumPy
@@ -33,13 +61,13 @@ Key questions addressed include:
 - Joblib / Pickle (Model saving & loading)
 - Jupyter Notebook (Model training & EDA)
 
-🧮 Machine Learning Models Used
+# 🧮 Machine Learning Models Used
 - Random Forest Classifier
 - Logistic Regression
 - XGBoost Classifier
 : Each model was trained, evaluated, and compared based on accuracy and prediction performance.
 
-🧼 Data Overview
+# 🧼 Data Overview
 - Dataset Name: healthinsurance_fraud.csv
 - The dataset includes these key fields:
 - step — Transaction timestamp
@@ -54,7 +82,7 @@ Key questions addressed include:
 - isFraud — Fraud label (1 = Fraud, 0 = Genuine)
 - isFlaggedFraud — System-flagged fraud indicator
 
-📊 Workflow Summary
+# 📊 Workflow Summary
 ------------------------------------------
 1️⃣ Loading & Understanding the Dataset
 - Check structure
@@ -77,7 +105,7 @@ Key questions addressed include:
 - Provide model selection dropdown
 - Display prediction + model accuracy
 
-# 🚀 How to Run the Project
+# # 🚀 How to Run the Project
 1️⃣ Clone the Repository
 - git clone https://github.com/ayush13-0/health-insurance-claim-fraud-detection.git
 - cd health-insurance-claim-fraud-detection
@@ -97,18 +125,13 @@ Key questions addressed include:
 - Open the browser at:
 👉 http://localhost:8501
 
-📁 Project Structure
-├── fraud_detection_app.py
-├── fraud_model_training.ipynb
-├── healthinsurance_fraud.csv
-├── requirements.txt
-└── README.md
+# 👨‍💻 Developed By
+# <h2> Ayush
+Data Science & Analytics | Machine Learning | Predictive Modeling </pre>
+- 🌐🔗 GitHub: https://github.com/ayush13-0
+- ℹ️🔗 LinkedIn: https://www.linkedin.com/in/ayush130
+- ✉️🔗 Eamil: bhanuseenu914@gmail.com
 
-👨‍💻 Developed By
--- Ayush
-Data Science & Analytics | Machine Learning | Predictive Modeling
-- 🔗 GitHub: https://github.com/ayush13-0
-- 🔗 LinkedIn: https://www.linkedin.com/in/ayush130
 
 📜 License
 - This project is licensed under the **MIT License**.
