@@ -105,7 +105,7 @@ Key questions addressed include:
 - Provide model selection dropdown
 - Display prediction + model accuracy
 
-# # 🚀 How to Run the Project
+# 🚀 How to Run the Project
 1️⃣ Clone the Repository
 - git clone https://github.com/ayush13-0/health-insurance-claim-fraud-detection.git
 - cd health-insurance-claim-fraud-detection
