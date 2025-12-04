@@ -107,8 +107,8 @@ Key questions addressed include:
 
 # 🚀 How to Run the Project
 1️⃣ Clone the Repository
-- git clone https://github.com/ayush13-0/health-insurance-claim-fraud-detection.git
-- cd health-insurance-claim-fraud-detection
+- git clone https://github.com/ayush13-0/ML-Health-Insurance-Claim-Fraud-Detection.git
+- cd ML-Health-Insurance-Claim-Fraud-Detection
 
 2️⃣ Create Conda Environment
 - conda create -n fraud-detection python=3.9
