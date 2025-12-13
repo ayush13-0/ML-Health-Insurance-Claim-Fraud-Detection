@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Health%20Insurance%20Fraud%20Detection-ML%20Web%20Application-blueviolet?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-<h1 align="center">💳🛡️ Health Insurance Claim Fraud Detection</h1>
+<h1 align="center">🛡️ Health Insurance Claim Fraud Detection</h1>
 
 <p align="center">
   <b>A machine learning–powered web application for real-time health insurance fraud prediction with model comparison</b>
